@@ -14,64 +14,14 @@
 
 <body>
     <div class="container-fluid">
-
-    <h1 style="text-align: center">UTS Sistem Pakar-17410100073</h1>
-    <h5 style="text-align: center" class="sub">Prediksi Curah Hujan Metode Fuzzy</h5>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="chart-one" style="width:100%; height:auto; border:1px solid #000000;">
-            <canvas id="DataSatu"></canvas>
-            </div>
-        </div>
-        <div class="col-md-4">
-        <div class="chart-one" style="width:100%; height:auto; border:1px solid #000000;">
-            <canvas id="DataDua"></canvas>
-            </div>
-        </div>
-        <div class="col-md-4">
-        <div class="chart-three" style="width:100%; height:auto; border:1px solid #000000;">
-            <canvas id="canvas"></canvas>
-        </div>
-        </div>
-    </div>
-
-    <h5>Masukkan Inputan</h5>
-        <input type="text" id="x" value="35" placeholder="Masukkan Nilai X">
-        <input type="text" id="y" value="75" placeholder="Masukkan Nilai y">
-
-        <button type="submit" id="hitungTotal" onClick="hitung();">Hitung</button>
-
+        <h1 style="text-align: center">Sistem Pakar-17410100073</h1>
         <div class="row">
-            <div class="col-md-4">
-            <p id="hasilKecilPermintaan"></p>
-            <p id="hasilBesarPermintaan"></p>
-            </div>
-            <div class="col-md-4">
-            <p id="hasilPersediaanTerbanyak"></p>
-            <p id="hasilPersediaanTerkecil"></p>
-            </div>
-            <div class="col-md-4">
-            <p id="hasilMaxProduksi"></p>
-            <p id="totalRulePertamaBanget"></p>
-            <p id="totalRuleKeduaBanget"></p>
-            <p id="totalRuleKetigaBanget"></p>
-            <p id="totalRuleKeempatBanget"></p>
-            <p id="hitungTotalPrediksiBanget"></p>
-            </div>
-            <div class="col-md-8">
-            <!-- <h5>Kesimpulan</h5> -->
-            <p id="kesimpulan"></p>
+            <div style="text-align: center" class="col-md-12">
+                <a href="Curah-Hujan.php"><button type="button" class="btn btn-primary btn-lg">Predikasi Curah Hujan</button></a>
+                <a><button type="button" class="btn btn-primary btn-lg">Large button</button></a>
             </div>
         </div>
-
-
-
-
-       
-
     </div>
-
 </body>
 
 
@@ -79,10 +29,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<script src="js/Chart.Core.js"></script>
-<script src="js/Chart.Scatter.js"></script>
-<!-- 
-<script src="js/utils.js"></script>
- -->
-<script src="js/resultGrafik.js"></script>
 </html>
